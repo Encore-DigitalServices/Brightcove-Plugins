@@ -1,0 +1,9 @@
+/* Hide the player control bar */
+.video-js .vjs-control-bar {
+  display: none;
+}
+
+/* Remove click events on the player */
+.video-js {
+  pointer-events: none;
+}
